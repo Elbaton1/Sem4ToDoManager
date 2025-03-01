@@ -16,12 +16,23 @@ This is a to-do list manager with animation effects. users can create tasks, mar
 5. A runner animation plays once before the logo slides in.
 
 ## Running The Program
-run:
-
+### Command Line
+Run:
 ```bash
-javac manager/*.java
-java manager.Main
+cd src/manager
+javac *.java
+java Main.java
 ```
+### or
+
+1. Open IntelliJ IDEA.
+2. Click **File** → **Open** and select the project folder.
+3. Wait for IntelliJ to index the files.
+4. Go to **Run** → **Edit Configurations**.
+5. Click **+** → **Application**.
+6. Set the **Main class** to `manager.Main`.
+7. Click **Apply** and **OK**.
+8. Click **Run** to start the program.
 
 ## File Structure
 ```
@@ -32,6 +43,7 @@ manager/
 |-- TList.java     # Single linked list for tasks
 |-- User.java      # User object managing their task list
 ```
+
 By: Michael O'Brien
 
 🚀
