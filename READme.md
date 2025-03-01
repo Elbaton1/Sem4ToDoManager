@@ -25,14 +25,13 @@ java Main.java
 ```
 ### or
 
-1. Open IntelliJ IDEA.
-2. Click **File** → **Open** and select the project folder.
-3. Wait for IntelliJ to index the files.
-4. Go to **Run** → **Edit Configurations**.
-5. Click **+** → **Application**.
-6. Set the **Main class** to `manager.Main`.
-7. Click **Apply** and **OK**.
-8. Click **Run** to start the program.
+1. Open IntelliJ
+2. Click **File** → **Open** and select the project folder
+3. Go to **Run** → **Edit Configurations**
+4. Click **+** → **Application**
+5. Set the **Main class** to `manager.Main`
+6. Click **Apply** and **OK**
+7. Click **Run** 
 
 ## File Structure
 ```
