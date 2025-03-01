@@ -16,6 +16,7 @@ This is a to-do list manager with animation effects. users can create tasks, mar
 5. A runner animation plays once before the logo slides in.
 
 ## Running The Program
+
 ### Command Line
 Run:
 ```bash
@@ -33,14 +34,14 @@ java Main.java
 6. Click **Apply** and **OK**
 7. Click **Run** 
 
-## File Structure
+## File Structur
 ```
 manager/
-|-- GUI.java       # The main UI with animations
-|-- Main.java      # Starts the program
-|-- Task.java      # Task object with description and status
-|-- TList.java     # Single linked list for tasks
-|-- User.java      # User object managing their task list
+|-- GUI.java       
+|-- Main.java     
+|-- Task.java      
+|-- TList.java     
+|-- User.java      
 ```
 
 By: Michael O'Brien
